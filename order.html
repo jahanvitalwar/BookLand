@@ -1,0 +1,514 @@
+<HTML>
+<HEAD><TITLE>BookLand.com/order</TITLE>
+<script language="JavaScript">
+function funorder()
+{
+cost=0;
+nob=0;
+
+nrq1=document.frmorder.txtnr1.value;
+if(nrq1>0)
+{
+cost+=nrq1*500;
+document.frmorder.txtcost.value=cost;
+nrq1=parseInt(nrq1);
+nob=nob+nrq1;
+}
+nrq2=document.frmorder.txtnr2.value;
+if(nrq2>0)
+{
+cost+=nrq2*500;
+document.frmorder.txtcost.value=cost;
+nrq2=parseInt(nrq2);
+nob=nob+nrq2;
+}
+
+nrq3=document.frmorder.txtnr3.value;
+if(nrq3>0)
+{
+cost+=nrq3*500;
+document.frmorder.txtcost.value=cost;
+nrq3=parseInt(nrq3);
+nob=nob+nrq3;
+}
+
+nrq4=document.frmorder.txtnr4.value;
+if(nrq4>0)
+{
+cost+=nrq4*500;
+document.frmorder.txtcost.value=cost;
+nrq4=parseInt(nrq4);
+nob=nob+nrq4;
+}
+
+nrq5=document.frmorder.txtnr5.value;
+if(nrq5>0)
+{
+cost+=nrq5*500;
+document.frmorder.txtcost.value=cost;
+nrq5=parseInt(nrq5);
+nob=nob+nrq5;
+}
+
+bsq1=document.frmorder.txtbs1.value;
+if(bsq1>0)
+{
+cost+=bsq1*600;
+document.frmorder.txtcost.value=cost;
+bsq1=parseInt(bsq1);
+nob=nob+bsq1;
+}
+
+bsq2=document.frmorder.txtbs2.value;
+if(bsq2>0)
+{
+cost+=bsq2*600;
+document.frmorder.txtcost.value=cost;
+bsq2=parseInt(bsq2);
+nob=nob+bsq2;
+}
+
+bsq3=document.frmorder.txtbs3.value;
+if(bsq3>0)
+{
+cost+=bsq3*600;
+document.frmorder.txtcost.value=cost;
+bsq3=parseInt(bsq3);
+nob=nob+bsq3;
+}
+
+bsq4=document.frmorder.txtbs4.value;
+if(bsq4>0)
+{
+cost+=bsq4*600;
+document.frmorder.txtcost.value=cost;
+bsq4=parseInt(bsq4);
+nob=nob+bsq4;
+}
+
+bsq5=document.frmorder.txtbs5.value;
+if(bsq5>0)
+{
+cost+=bsq5*600;
+document.frmorder.txtcost.value=cost;
+bsq5=parseInt(bsq5);
+nob=nob+bsq5;
+}
+
+
+artq1=document.frmorder.txtart1.value;
+if(artq1>0)
+{
+cost+=chq1*300;
+document.frmorder.txtcost.value=cost;
+artq1=parseInt(artq1);
+nob=nob+artq1;
+}
+
+artq2=document.frmorder.txtart2.value;
+if(artq2>0)
+{
+cost+=artq2*300;
+document.frmorder.txtcost.value=cost;
+artq2=parseInt(artq2);
+nob=nob+artq2;
+}
+
+artq3=document.frmorder.txtart3.value;
+if(artq3>0)
+{
+cost+=artq3*300;
+document.frmorder.txtcost.value=cost;
+artq3=parseInt(artq3);
+nob=nob+artq3;
+}
+
+artq4=document.frmorder.txtart4.value;
+if(artq4>0)
+{
+cost+=artq4*300;
+document.frmorder.txtcost.value=cost;
+artq4=parseInt(artq4);
+nob=nob+artq4;
+}
+
+artq5=document.frmorder.txtart5.value;
+if(artq5>0)
+{
+cost+=artq5*300;
+document.frmorder.txtcost.value=cost;
+artq5=parseInt(artq5);
+nob=nob+artq5;
+}
+
+artq6=document.frmorder.txtart6.value;
+if(artq6>0)
+{
+cost+=artq6*300;
+document.frmorder.txtcost.value=cost;
+artq6=parseInt(artq6);
+nob=nob+artq6;
+}
+
+chq1=document.frmorder.txtch1.value;
+if(chq1>0)
+{
+cost+=chq1*200;
+document.frmorder.txtcost.value=cost;
+chq1=parseInt(chq1);
+nob=nob+chq1;
+}
+
+chq2=document.frmorder.txtch2.value;
+if(chq2>0)
+{
+cost+=chq2*200;
+document.frmorder.txtcost.value=cost;
+chq2=parseInt(chq2);
+nob=nob+chq2;
+}
+
+chq3=document.frmorder.txtch3.value;
+if(chq3>0)
+{
+cost+=chq3*200;
+document.frmorder.txtcost.value=cost;
+chq3=parseInt(chq3);
+nob=nob+chq3;
+}
+
+chq4=document.frmorder.txtch4.value;
+if(chq4>0)
+{
+cost+=chq4*200;
+document.frmorder.txtcost.value=cost;
+chq4=parseInt(chq4);
+nob=nob+chq4;
+}
+
+chq5=document.frmorder.txtch5.value;
+if(chq5>0)
+{
+cost+=chq5*200;
+document.frmorder.txtcost.value=cost;
+chq5=parseInt(chq5);
+nob=nob+chq5;
+}
+
+chq6=document.frmorder.txtch6.value;
+if(chq6>0)
+{
+cost+=chq6*200;
+document.frmorder.txtcost.value=cost;
+chq6=parseInt(chq6);
+nob=nob+chq6;
+}
+
+
+compq1=document.frmorder.txtcomp1.value;
+if(compq1>0)
+{
+cost+=compq1*400;
+document.frmorder.txtcost.value=cost;
+compq1=parseInt(compq1);
+nob=nob+compq1;
+}
+
+
+compq2=document.frmorder.txtcomp2.value;
+if(compq2>0)
+{
+cost+=compq2*400;
+document.frmorder.txtcost.value=cost;
+compq2=parseInt(compq2);
+nob=nob+compq2;
+}
+
+compq3=document.frmorder.txtcomp3.value;
+if(compq3>0)
+{
+cost+=compq3*400;
+document.frmorder.txtcost.value=cost;
+compq3=parseInt(compq3);
+nob=nob+compq3;
+}
+
+compq4=document.frmorder.txtcomp4.value;
+if(compq4>0)
+{
+cost+=compq4*400;
+document.frmorder.txtcost.value=cost;
+compq4=parseInt(compq4);
+nob=nob+compq4;
+}
+
+compq5=document.frmorder.txtcomp5.value;
+if(compq5>0)
+{
+cost+=compq5*400;
+document.frmorder.txtcost.value=cost;
+compq5=parseInt(compq5);
+nob=nob+compq5;
+}
+
+compq6=document.frmorder.txtcomp6.value;
+if(compq6>0)
+{
+cost+=compq6*400;
+document.frmorder.txtcost.value=cost;
+compq6=parseInt(compq6);
+nob=nob+compq6;
+}
+
+cookq1=document.frmorder.txtcook1.value;
+if(cookq1>0)
+{
+cost+=cookq1*300;
+document.frmorder.txtcost.value=cost;
+cookq1=parseInt(cookq1);
+nob=nob+cookq1;
+}
+
+cookq2=document.frmorder.txtcook2.value;
+if(cookq2>0)
+{
+cost+=cookq2*300;
+document.frmorder.txtcost.value=cost;
+cookq2=parseInt(cookq2);
+nob=nob+cookq2;
+}
+
+cookq3=document.frmorder.txtcook3.value;
+if(cookq3>0)
+{
+cost+=cookq3*300;
+document.frmorder.txtcost.value=cost;
+cookq3=parseInt(cookq3);
+nob=nob+cookq3;
+}
+
+cookq4=document.frmorder.txtcook4.value;
+if(cookq4>0)
+{
+cost+=cookq4*300;
+document.frmorder.txtcost.value=cost;
+cookq4=parseInt(cookq4);
+nob=nob+cookq4;
+}
+
+cookq5=document.frmorder.txtcook5.value;
+if(cookq5>0)
+{
+cost+=cookq5*300;
+document.frmorder.txtcost.value=cost;
+cookq5=parseInt(cookq5);
+nob=nob+cookq5;
+}
+
+cookq6=document.frmorder.txtcook6.value;
+if(cookq6>0)
+{
+cost+=cookq6*300;
+document.frmorder.txtcost.value=cost;
+cookq6=parseInt(cookq6);
+nob=nob+cookq6;
+}
+
+examq1=document.frmorder.txtexam1.value;
+if(examq1>0)
+{
+cost+=examq1*500;
+document.frmorder.txtcost.value=cost;
+examq1=parseInt(examq1);
+nob=nob+examq1;
+}
+
+examq2=document.frmorder.txtexam2.value;
+if(examq2>0)
+{
+cost+=examq2*500;
+document.frmorder.txtcost.value=cost;
+examq2=parseInt(examq2);
+nob=nob+examq2;
+}
+
+examq3=document.frmorder.txtexam3.value;
+if(examq3>0)
+{
+cost+=examq3*500;
+document.frmorder.txtcost.value=cost;
+examq3=parseInt(examq3);
+nob=nob+examq3;
+}
+
+examq4=document.frmorder.txtexam4.value;
+if(examq4>0)
+{
+cost+=examq4*500;
+document.frmorder.txtcost.value=cost;
+examq4=parseInt(examq4);
+nob=nob+examq4;
+}
+
+examq5=document.frmorder.txtexam5.value;
+if(examq5>0)
+{
+cost+=examq5*500;
+document.frmorder.txtcost.value=cost;
+examq5=parseInt(examq5);
+nob=nob+examq5;
+}
+
+examq6=document.frmorder.txtexam6.value;
+if(examq6>0)
+{
+cost+=examq6*500;
+document.frmorder.txtcost.value=cost;
+examq6=parseInt(examq6);
+nob=nob+examq6;
+}
+
+document.frmorder.txtnob.value=nob;
+}
+</script>
+</HEAD>
+<BODY background="Images\background.jpg" text=#00008B>
+<b>
+<h1 align=center>Your Orders</font></h1>
+<hr color=#00008B size=5>
+<form name=frmorder method=post action="http:\\localhost\website\ord.php">
+<font size=5>
+Which book do you want to buy?<br>
+
+<table cellspacing=10 cellpadding=10>
+
+<tr><td><b><font size=5>New Releases:<br></b>
+<input type=checkbox name=chknr1 value="Principles by Ray Dalio">Principles by Ray Dalio<br>
+<input type=checkbox name=chknr2 value="Himalayan Hazard">Himalayan Hazard<br>
+<input type=checkbox name=chknr3 value="Political Voilence in Ancient India">Political Voilence in Ancient India<br>
+<input type=checkbox name=chknr4 value="Advanced Digital Design">Advanced Digital Design<br>
+<input type=checkbox name=chknr5 value="The Power Of Positive Thinking">The Power Of Positive Thinking<br>
+<td><font size=5><b>Quantity: </b><br>
+<input type=text name=txtnr1 maxlength=4 size=3><br>
+<input type=text name=txtnr2 maxlength=4 size=3><br>
+<input type=text name=txtnr3 maxlength=4 size=3><br>
+<input type=text name=txtnr4 maxlength=4 size=3><br>
+<input type=text name=txtnr5 maxlength=4 size=3><br>
+
+<td><font size=5><b>Bestsellers:</b><br>
+<input type=checkbox name=chkbs1 value="A message from Arunachala">A message from Arunachala<br>
+<input type=checkbox name=chkbs2 value="Yoga on Hypertension">Yoga on Hypertension<br>
+<input type=checkbox name=chkbs3 value="Maya">Maya<br>
+<input type=checkbox name=chkbs4 value="Charlatans">Charlatans<br>
+<input type=checkbox name=chkbs5 value="Think and Grow Rich">Think and Grow Rich<br>
+
+<td><font size=5><b>Quantity: </b><br>
+<input type=text name=txtbs1 maxlength=4 size=3><br>
+<input type=text name=txtbs2 maxlength=4 size=3><br>
+<input type=text name=txtbs3 maxlength=4 size=3><br>
+<input type=text name=txtbs4 maxlength=4 size=3><br>
+<input type=text name=txtbs5 maxlength=4 size=3><br>
+
+<tr><td><font size=5><b>Arts and Photography:</b><br>
+
+<input type=checkbox name=chkart1 value="Photographing Your Heritage">Photographing Your Heritage<br>
+<input type=checkbox name=chkart2 value="Tracks">Tracks<br>
+<input type=checkbox name=chkart3 value="Hunting Honey">Hunting Honey<br>
+<input type=checkbox name=chkart4 value="Costume Designing">Costume Designing<br>
+<input type=checkbox name=chkart5 value="Ladybird By Design">Ladybird By Design<br>
+<input type=checkbox name=chkart6 value="Fashion Technology and Management">Fashion Technology and Management<br>
+
+<td><font size=5><b>Quantity:</b><br>
+<input type=text name=txtart1 maxlength=4 size=3><br>
+<input type=text name=txtart2 maxlength=4 size=3><br>
+<input type=text name=txtart3 maxlength=4 size=3><br>
+<input type=text name=txtart4 maxlength=4 size=3><br>
+<input type=text name=txtart5 maxlength=4 size=3><br>
+<input type=text name=txtart6 maxlength=4 size=3><br>
+
+<td><font size=5><b>Childern's Books:</b><br>
+
+<input type=checkbox name=chkch1 value="How To Paint & Draw">How To Paint & Draw<br>
+<input type=checkbox name=chkch2 value="Giant Colouring Books">Giant Colouring Books<br>
+<input type=checkbox name=chkch3 value="Umberto">Umberto<br>
+<input type=checkbox name=chkch4 value="Better English">Better English<br>
+<input type=checkbox name=chkch5 value="Graded English">Graded English<br>
+<input type=checkbox name=chkch6 value="Alex and the Scary Things">Alex and the Scary Things<br>
+
+<td><font size=5><b>Quantity:</b><br>
+<input type=text name=txtch1 maxlength=4 size=3><br>
+<input type=text name=txtch2 maxlength=4 size=3><br>
+<input type=text name=txtch3 maxlength=4 size=3><br>
+<input type=text name=txtch4 maxlength=4 size=3><br>
+<input type=text name=txtch5 maxlength=4 size=3><br>
+<input type=text name=txtch6 maxlength=4 size=3><br>
+
+
+<tr><td><font size=5><b>Computer Books:</b><br>
+<input type=checkbox name=chkcomp1 value="Developing Web Applications">Developing Web Applications<br>
+<input type=checkbox name=chkcomp2 value="Information Technology">Information Technology<br>
+<input type=checkbox name=chkcomp3 value="Textbook on C">Textbook on C<br>
+<input type=checkbox name=chkcomp4 value="Web Engineering">Web Engineering<br>
+<input type=checkbox name=chkcomp5 value="Software Engineering">Software Engineering<br>
+<input type=checkbox name=chkcomp6 value="TCP/IP Illustrated">TCP/IP Illustrated<br>
+
+<td><font size=5><b>Quantity:</b><br>
+<input type=text name=txtcomp1 maxlength=4 size=3><br>
+<input type=text name=txtcomp2 maxlength=4 size=3><br>
+<input type=text name=txtcomp3 maxlength=4 size=3><br>
+<input type=text name=txtcomp4 maxlength=4 size=3><br>
+<input type=text name=txtcomp5 maxlength=4 size=3><br>
+<input type=text name=txtcomp6 maxlength=4 size=3><br>
+
+<td><font size=5><b>Cooking:</b><br>
+<input type=checkbox name=chkcook1 value="Cake Cookbook">Cake Cookbook<br>
+<input type=checkbox name=chkcook2 value="Snacks for Children">Snacks for Children<br>
+<input type=checkbox name=chkcook3 value="Rice and Pulao">Rice and Pulao<br>
+<input type=checkbox name=chkcook4 value="Chinese Cooking">Chinese Cooking<br>
+<input type=checkbox name=chkcook5 value="Microwave Veg">Microwave Veg<br>
+<input type=checkbox name=chkcook6 value="Delicious Recipes from Andhra">Delicious Recipes from Andhra<br>
+
+<td><font size=5><b>Quantity:</b><br>
+<input type=text name=txtcook1 maxlength=4 size=3><br>
+<input type=text name=txtcook2 maxlength=4 size=3><br>
+<input type=text name=txtcook3 maxlength=4 size=3><br>
+<input type=text name=txtcook4 maxlength=4 size=3><br>
+<input type=text name=txtcook5 maxlength=4 size=3><br>
+<input type=text name=txtcook6 maxlength=4 size=3><br>
+
+<tr>
+<td><font size=5><b>Entrance Exam Preparation:</b><br>
+<input type=checkbox name=chkexam1 value="Chemistry">Chemistry<br>
+<input type=checkbox name=chkexam2 value="Physics">Physics<br>
+<input type=checkbox name=chkexam3 value="Objective Approach to chemistry">Objective Approach to chemistry<br>
+<input type=checkbox name=chkexam4 value="CDS">CDS<br>
+<input type=checkbox name=chkexam5 value="General Aptitude">General Aptitude<br>
+<input type=checkbox name=chkexam6 value="CBSE Solved Papers">CBSE Solved Papers<br>
+
+<td><font size=5><b>Quantity: </b><br>
+<input type=text name=txtexam1 maxlsength=4 size=3><br>
+<input type=text name=txtexam2 maxlength=4 size=3><br>
+<input type=text name=txtexam3 maxlength=4 size=3><br>
+<input type=text name=txtexam4 maxlength=4 size=3><br>
+<input type=text name=txtexam5 maxlength=4 size=3><br>
+<input type=text name=txtexam6 maxlength=4 size=3><br>
+</table>
+<center>
+<BR><BR>
+<input type=button value="     CALCULATE COST     " name=btncost onclick=funorder()>
+<BR><BR>
+Total Cost:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=text name=txtcost>
+<br><br>
+Total Number of books selected:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=text name=txtnob>
+<br><br>
+<!-- Enter Name: <input type=text name=txtnm>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Enter Mobile No: <input type=text name=txtmob maxlength=10>
+<br><br>
+<input type=submit value="     PLACE ORDER     " name=subord>
+<br><br> -->
+<input type=reset value="     RESET     ">
+</font>
+</center>
+</b>
+</BODY>
+</HTML>

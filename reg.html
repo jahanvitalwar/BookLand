@@ -1,0 +1,89 @@
+<html>
+<head><TITLE>BookLand.com/register</TITLE><script language=JavaScript>
+
+funtion funreg()
+name=document.frmreg.txtnm.value;
+email=document.frmreg.txtadd.value;
+mob=document.frmreg.txtmob.value;
+city=document.frmreg.txtcity.value;
+state=document.frmreg.txtstate.value;
+pss=document.frmreg.pss.value;
+cpss=document.frmreg.cpss.value;
+{
+if(name=="")
+{
+alert("Enter Your Name");
+}
+
+if(email=="")
+{
+alert("Enter Your Email Address");
+}
+
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(inputText.value.match(mailformat))
+{
+document.formreg.txtadd.focus();
+return true;
+}
+else
+{
+alert("You have entered an invalid email address!");
+document.formreg.txtadd.focus();
+return false;
+}
+
+if(city=="")
+{
+alert("Enter your city");
+}
+
+if(state=="")
+{
+alert("Enter your state");
+}
+
+if(pss=="")
+{
+alert("Enter Password");
+}
+
+if(cpss=="")
+{
+alert("Confirm Your Password");
+}
+
+if(pss!=cpss)
+{
+alert("The password did not match!!")
+}
+
+}
+</script></head>
+<body background="Images\background.jpg" text=#00008B>
+<b><font size=7>Create an Account</font></b>
+<hr color=#00008B size=5>
+
+Please enter the following information to create the account:<br><br>
+<form name=frmreg method=post action="http:\\localhost\website\register.php" >
+NAME<font color=red SIZE=5>*</font><br>
+<input type=text name=txtnm><br>
+EMAIL ADDRESS<font color=red size=5>*</font> <br>
+<input type=text name=txtadd><br>
+MOBILE NO.<font color=red size=5>*</font> <br>
+<input type=text name=txtmob maxlength=10><br>
+CITY<font color=red size=5>* </font><br>
+<input type=text name=txtcity><br>
+STATE<font color=red size=5>* </font><br>
+<input type=text name=txtstate><br>
+PASSWORD<font color=red size=5>*</font><br>
+<input type=password name=pss maxlength=8><br>
+CONFIRM PASSWORD<font color=red size=5>*</font><br>
+<input type=password name=cpss maxlength=8><br><br>
+<input type=submit value="     REGISTER     " onclick="funreg()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type=reset value="    RESET     ">
+</form>
+<br><br><br>
+<H3><font color=red>* </font> : Compulsory Fields </H3>
+</body>
+</html>
